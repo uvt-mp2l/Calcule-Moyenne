@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <EditText
+        android:id="@+id/matiereText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Insert matiere name"
+        android:ems="10"
+        android:layout_marginBottom="@dimen/margin_10" />
+
+    <EditText
+        android:id="@+id/dsCoefText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Insert Coef DS"
+        android:layout_marginBottom="@dimen/margin_10" />
+
+    <EditText
+        android:id="@+id/tpCoefText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Insert Coef TP"
+        android:layout_marginBottom="@dimen/margin_10" />
+
+    <EditText
+        android:id="@+id/exmCoefText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:hint="Insert Coef Exam"
+        android:layout_marginBottom="@dimen/margin_10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
